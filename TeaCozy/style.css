@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+header nav {
+  padding-right: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 15px;
+}
+span a {
+  color: seashell;
+  text-decoration: underline;
+}
+.content {
+  padding-top: 69px;
+}
+.mission .image-content {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.mission .image-content span{
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  height: auto;
+  padding: auto;
+}
+.featured-tea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  margin-top: 115px;
+}
+.berry,
+.rum,
+.donut,
+.myrtle,
+.bizarre {
+  align-items: center;
+  margin: auto 12px;
+}
+.featured-tea span {
+  text-align: center;
+  margin-top: 10px;
+}
+.featured-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+.locations .location-title {
+  display: flex;
+  justify-content: center;
+}
+.locations .location-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.downtown,
+.bayside,
+.oakdale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  align-items: center;
+  margin: 40px 20px;
+}
+.location-content .address {
+  text-align: center;
+  display: block;
+  margin: 40px 20px;
+}
+footer .contact {
+  text-align: center;
+  height: 200px;
+}
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+}
